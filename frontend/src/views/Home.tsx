@@ -16,12 +16,12 @@ export const Home: React.FC<AppProps> = ({ state, dispatch }) => {
     <>
       <div className='mainApp'>
         <div id="header">
-          <p id='title-page'>Infinity Store</p>
+          <p id='title-page'>Aetherwear Atelier</p>
           <CurrencyFilter 
             dispatch={dispatch}
             currencyFilter={state.currencyFilter}
           />
-          <FeaturedOutfits/>
+          {/* <FeaturedOutfits/> */}
 
         </div>
 

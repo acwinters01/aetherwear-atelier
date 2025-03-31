@@ -2,10 +2,11 @@ import React from 'react';
 import { setSearchTerm, clearSearchTerm } from '../../reducers/searchTermSlice';
 import { AppDispatch } from '../../store';
 import '../../styles/searchTerm.css'
+import '../../../public/assets/svgs/close-line-icon.svg'
 
 
-const searchIcon: string = './src/assets/svgs/search-icon.svg';
-const clearIcon: string = './src/assets/svgs/close-line-icon.svg';
+const searchIcon: string = './assets/svgs/search-icon.svg';
+const clearIcon: string = './assets/svgs/close-line-icon.svg';
 
 interface SearchTermProps {
     dispatch: AppDispatch;
